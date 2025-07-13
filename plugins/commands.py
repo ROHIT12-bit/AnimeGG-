@@ -31,7 +31,7 @@ def start(client, message):
     # Create inline buttons
     buttons = [
         [
-            InlineKeyboardButton("Owner", url="https://t.me/r4h4t_69"),
+            InlineKeyboardButton("Owner", url="https://t.me/ROHITREDDY69"),
             InlineKeyboardButton("Help", callback_data="help")
         ],
         [
@@ -44,7 +44,7 @@ def start(client, message):
     client.send_photo(
         chat_id=message.chat.id,
         photo=start_pic,
-        caption="👋 Welcome to the Anime PaheBot! \n\nUse the buttons below for assistance or to contact the owner",
+        caption="👋 Welcome to the Anime GG GOD BOT! \n\nUse the buttons below for assistance or to contact the owner",
         reply_markup=reply_markup
     )
 
